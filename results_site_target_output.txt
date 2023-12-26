@@ -1,0 +1,83 @@
+Processing site: 6
+[LightGBM] [Info] Number of positive: 2483, number of negative: 18107
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001440 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 202
+[LightGBM] [Info] Number of data points in the train set: 20590, number of used features: 22
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.120593 -> initscore=-1.986831
+[LightGBM] [Info] Start training from score -1.986831
+Best Model for site 6: LGBMClassifier with AUC: 0.7403884319952532
+Processing site: 3
+[LightGBM] [Info] Number of positive: 2068, number of negative: 13167
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000465 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 157
+[LightGBM] [Info] Number of data points in the train set: 15235, number of used features: 12
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.135740 -> initscore=-1.851132
+[LightGBM] [Info] Start training from score -1.851132
+Best Model for site 3: LGBMClassifier with AUC: 0.802496805949072
+Processing site: 11
+[LightGBM] [Info] Number of positive: 1682, number of negative: 13244
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000759 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 167
+[LightGBM] [Info] Number of data points in the train set: 14926, number of used features: 17
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.112689 -> initscore=-2.063561
+[LightGBM] [Info] Start training from score -2.063561
+Best Model for site 11: LGBMClassifier with AUC: 0.7079244298796057
+Processing site: 9
+[LightGBM] [Info] Number of positive: 3761, number of negative: 10173
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000657 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 184
+[LightGBM] [Info] Number of data points in the train set: 13934, number of used features: 14
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.269915 -> initscore=-0.995052
+[LightGBM] [Info] Start training from score -0.995052
+Best Model for site 9: LGBMClassifier with AUC: 0.6431242356968739
+Processing site: 2
+[LightGBM] [Info] Number of positive: 2787, number of negative: 12623
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000629 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 225
+[LightGBM] [Info] Number of data points in the train set: 15410, number of used features: 21
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.180857 -> initscore=-1.510555
+[LightGBM] [Info] Start training from score -1.510555
+Best Model for site 2: CatBoostClassifier with AUC: 0.7897367527376014
+Processing site: 12
+[LightGBM] [Info] Number of positive: 1758, number of negative: 14119
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000650 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 192
+[LightGBM] [Info] Number of data points in the train set: 15877, number of used features: 16
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.110726 -> initscore=-2.083345
+[LightGBM] [Info] Start training from score -2.083345
+Best Model for site 12: LGBMClassifier with AUC: 0.8000834445415919
+Processing site: 8
+[LightGBM] [Info] Number of positive: 1522, number of negative: 12247
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001241 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 222
+[LightGBM] [Info] Number of data points in the train set: 13769, number of used features: 33
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.110538 -> initscore=-2.085256
+[LightGBM] [Info] Start training from score -2.085256
+Best Model for site 8: CatBoostClassifier with AUC: 0.8411360456383744
+Processing site: 7
+[LightGBM] [Info] Number of positive: 147, number of negative: 751
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000169 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 44
+[LightGBM] [Info] Number of data points in the train set: 898, number of used features: 2
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.163697 -> initscore=-1.630973
+[LightGBM] [Info] Start training from score -1.630973
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Best Model for site 7: XGBClassifier with AUC: 0.6486486486486486
